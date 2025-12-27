@@ -1,16 +1,27 @@
-# React + Vite
+# Tech Jar – React Internship Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task Tracker Application
 
-Currently, two official plugins are available:
+A simple task tracker built using React and Tailwind CSS as part of the React Intern assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add, edit, and delete tasks
+- Filter tasks by status (All, Pending, Done)
+- Search tasks with debounce
+- Sort tasks by due date or title
+- Data persistence using localStorage (mock API)
 
-## React Compiler
+## Tech Stack
+- React (Hooks)
+- Vite
+- Tailwind CSS
+- localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Live Demo
+https://tech-45crytyzx-shreeti-bajracharyas-projects.vercel.app
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
