@@ -18,7 +18,7 @@ A simple task tracker built using React and Tailwind CSS as part of the React In
 - localStorage
 
 ## Live Demo
-https://tech-45crytyzx-shreeti-bajracharyas-projects.vercel.app
+https://tech-atzgghpar-shreeti-bajracharyas-projects.vercel.app 
 
 ## Setup Instructions
 

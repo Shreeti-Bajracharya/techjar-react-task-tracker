@@ -7,16 +7,16 @@ export default function TaskControls({
   setSortBy,
 }) {
   return (
-    <div className="flex flex-wrap gap-2 mb-4">
+    <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4">
       <input
-        className="border rounded px-3 py-2 flex-1"
+        className="border rounded px-3 py-2 w-full sm:flex-1"
         placeholder="Search tasks..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
 
       <select
-        className="border rounded px-3 py-2"
+        className="border rounded px-3 py-2 w-full sm:w-auto"
         value={status}
         onChange={(e) => setStatus(e.target.value)}
       >
@@ -26,7 +26,7 @@ export default function TaskControls({
       </select>
 
       <select
-        className="border rounded px-3 py-2"
+        className="border rounded px-3 py-2 w-full sm:w-auto"
         value={sortBy}
         onChange={(e) => setSortBy(e.target.value)}
       >

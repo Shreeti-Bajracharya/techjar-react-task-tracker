@@ -20,7 +20,10 @@ export default function TaskForm({ onAdd }) {
   };
 
   return (
-    <form onSubmit={submitHandler} className="flex gap-2 mb-4">
+    <form
+      onSubmit={submitHandler}
+      className="flex flex-col sm:flex-row gap-2 mb-4"
+    >
       <input
         className="flex-1 border rounded px-3 py-2"
         placeholder="Task title"

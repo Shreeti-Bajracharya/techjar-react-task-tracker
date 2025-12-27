@@ -48,9 +48,9 @@ export default function App() {
     });
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-6">
-        <h1 className="text-2xl font-bold mb-4">Task Tracker</h1>
+    <div className="min-h-screen bg-gray-100 px-3 py-6 sm:px-6">
+      <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-4 sm:p-6">
+        <h1 className="text-xl sm:text-2xl font-bold mb-4">Task Tracker</h1>
 
         <TaskForm onAdd={addTask} />
 

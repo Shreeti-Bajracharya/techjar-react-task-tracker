@@ -17,7 +17,7 @@ export default function TaskItem({ task, onUpdate, onDelete }) {
   };
 
   return (
-    <li className="flex items-center justify-between bg-gray-50 p-3 rounded">
+    <li className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 bg-gray-50 p-3 rounded">
       <div className="flex-1">
         {editing ? (
           <input
@@ -37,7 +37,7 @@ export default function TaskItem({ task, onUpdate, onDelete }) {
         <small className="text-gray-500">{task.dueDate}</small>
       </div>
 
-      <div className="flex gap-2 ml-4">
+      <div className="flex flex-wrap gap-2 sm:ml-4">
         <button
           onClick={toggleStatus}
           className="text-sm px-2 py-1 border rounded"
